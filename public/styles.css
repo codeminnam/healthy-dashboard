@@ -1,0 +1,23 @@
+.App {
+  display: flex;
+}
+
+.weather-time-container {
+  background-color: #17c3b2;
+  color: white;
+  height: 50vh;
+  width: 50vw;
+}
+
+.task-manager-container {
+  background-color: #ffcb77;
+  height: 50vh;
+  width: 50vw;
+}
+
+.widgets-container {
+  background-color: #fef9ef;
+  background-color: hotpink;
+  height: 100vh;
+  width: 50vw;
+}
