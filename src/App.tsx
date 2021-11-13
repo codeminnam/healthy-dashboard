@@ -1,6 +1,6 @@
 import React from 'react';
-import MusicPlayer from './components/MusicPlayer';
 import TaskManager from './components/task-manager';
+import MusicPlayer from './components/MusicPlayer';
 
 const App = () => {
   return (
