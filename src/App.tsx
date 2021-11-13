@@ -1,5 +1,5 @@
 import React from 'react';
-import TaskManager from './components/task-manager';
+import TaskManager from './components/taskManager';
 
 const App = () => {
   return (
