@@ -1,6 +1,7 @@
 import React from 'react';
+import Weather from '../api/Weather';
 
-const WeatherComponentAPI: React.FC<unknown> = () => {
+const WeatherComponent: React.FC<unknown> = () => {
   const [city, setCity] = React.useState<string>('London');
   const [search, setSearch] = React.useState<string>('London');
 
@@ -19,9 +20,9 @@ const WeatherComponentAPI: React.FC<unknown> = () => {
           }}
         />
       </div>
-      <WeatherComponentAPI city={city} />
+      <Weather city={city} />
     </>
   );
 };
 
-export default WeatherComponentAPI;
+export default WeatherComponent;
