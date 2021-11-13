@@ -1,4 +1,5 @@
 import React from 'react';
+import MusicPlayer from './components/MusicPlayer';
 import TaskManager from './components/task-manager';
 
 const App = () => {
@@ -6,6 +7,7 @@ const App = () => {
     <div className="App">
       Hello Athena!
       <TaskManager />
+      <MusicPlayer />
     </div>
   );
 };
