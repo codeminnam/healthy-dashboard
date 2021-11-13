@@ -72,7 +72,7 @@ const TaskManager = () => {
   useEffect(() => {
     const loadedTasks = localStorage.getItem(TASK_ITEMS);
 
-    if (loadedTasks !== null) {
+    if (loadedTasks) {
       const parsedTasks = JSON.parse(loadedTasks);
       setTasks(parsedTasks);
     }
