@@ -2,7 +2,7 @@ import React from 'react';
 import TaskManager from './components/taskManager/index';
 import WeatherComponent from './components/weather';
 import MusicPlayer from './components/musicPlayer';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 const LayoutContainer = styled.div`
   display: flex;
