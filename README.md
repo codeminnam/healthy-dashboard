@@ -23,6 +23,8 @@ git clone https://github.com/codeminnam/healthy-dashboard.git
 cd healthy-dashboard
 npm i
 npm run dev
+create key.json in /src with your own API keys from weatherApi
+{ "weatherAPIKey": "getYourOwnAPIKeyatWeatherApi" }
 ```
 
 ## Tech
